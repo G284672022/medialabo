@@ -2,6 +2,10 @@ p {
 	color: navy;
 }
 
+h1 {
+	color: white;
+	text-shadow: navy;
+}
 p.info {
 	font-size: small;
 }
@@ -15,18 +19,25 @@ h2 {
     margin: 2px;
 }
 
-div#zentai {
+div.zentai {
 	display: grid;
 	flex-direction: row;
 	grid-template-columns: 1fr 1fr;
-	padding: 5px;
-	width: 10px;
-	height: 200px;
-
+	grid-auto-rows: 200px;
+	grid-gap: 10px;
 	
 }
+img.src{
+	float: right;
+}
 
-div#zentai > div {
-	margin-left: 5px;
+div.zentai > div {
+	padding-left: 5px;
 	background-color: #ffefaf;
+}
+
+h2 {
+	font-family: cursive;
+	color: 3f3faf;
+	background:linear-gradient(white,#ffefaf)
 }
