@@ -35,6 +35,8 @@ div.zentai{
 }
 
 div#zentai > div {
+	position: relative;
+	font: right;
 	margin-left: 5px;
 	background-color: #ffefaf;
 }
