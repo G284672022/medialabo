@@ -35,7 +35,10 @@ div.zentai{
 }
 
 div#zentai > div {
-	position: relative;
-	margin-right: 5px;
+	margin-left: 5px;
 	background-color: #ffefaf;
+}
+
+.firefox_icon.png {
+	float:right;
 }
