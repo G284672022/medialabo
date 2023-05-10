@@ -1,19 +1,18 @@
 p {
 	color: navy;
 	background-color: #dfdfdf;
+	font-size: small;
 }
 
 h1 {
 	color: white;
 	text-shadow: navy;
 }
-p.info {
-	font-size: small;
-}
+
 
 
 h2 {
-	border: solid 5px black;
+	
     margin: 2px;
 	font-family:cursive;
 	color: #3f3faf;
