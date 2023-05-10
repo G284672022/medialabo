@@ -34,14 +34,15 @@ div.zentai{
 	padding: 5px;
 }
 
-div#zentai > div {
-	margin-left: 5px;
-	background-color: #ffefaf;
-}
-
 img.zentai {
 	float:right;
 	width: 100px;
     height: 100px;
     margin: 10px 0 10px 10px;
 }
+
+div#zentai > div {
+	margin-left: 5px;
+	background-color: #ffefaf;
+}
+
