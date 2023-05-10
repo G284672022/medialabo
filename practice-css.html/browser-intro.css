@@ -1,11 +1,11 @@
 p {
 	color: navy;
-	font-size: small;
-	background-color: #dfdfdf;
+	
 }
 
 p.info {
-	font-size: 10pt;
+	font-size: small;
+	background-color: #dfdfdf;
 }
 
 h1 {
