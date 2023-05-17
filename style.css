@@ -1,0 +1,13 @@
+p {
+    color:navy;
+}
+
+.special {
+    color:orange;
+}
+
+h1 {
+	background :linear-gradient(0.25turn,black,silver);
+	color: white;
+
+}
