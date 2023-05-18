@@ -1,0 +1,13 @@
+table.style{
+    border-collapse: collapse;
+}
+
+table.style th{
+    border:1px solid #000066;
+    background:royalblue;
+}
+
+table.style td{
+    border:1px solid #000066;
+    background:#ffffff;
+}
