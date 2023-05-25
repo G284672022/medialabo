@@ -14,13 +14,17 @@ let data = [
 //// 注意: 以上は編集しないこと!
 
 // 練習4-2 メッセージ追加プログラム
-let p=document.querySelector('h2#ex42');
-p.style.text-emphasis='sesame green';
+let p1= document.querySelector('p#style');
+p1.style="text-emphasis: sesame green";
 // 練習4-3 写真表作成プログラム
-
+let div = document.querySelector('div#phototable');
+let img1 = document.createErement('img');
+img1.setAttribute('src','taro.png');
+let p2 = document.createErement('p');
+p.insertAdjacentElement('beforeend', img1);
+div.insertAdjacentElement('beforeend', p2);
 
 // 練習4-4 箇条書き削除プログラム
 
 
 // 練習4-5 箇条書き追加プログラム
-
