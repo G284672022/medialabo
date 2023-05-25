@@ -48,5 +48,6 @@ function changeColor(event) {
 
 	let div = event.target;
 	div.style.backgroundColor = color;
+	
 }
 
