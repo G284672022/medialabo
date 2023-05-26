@@ -16,15 +16,31 @@ let data = [
 // 練習4-2 メッセージ追加プログラム
 let p1= document.querySelector('p#style');
 p1.style="text-emphasis: sesame green";
+
 // 練習4-3 写真表作成プログラム
 let div = document.querySelector('div#phototable');
-let img1 = document.createErement('img');
+let img1 = document.createElement('img');
 img1.setAttribute('src','taro.png');
-let p2 = document.createErement('p');
-p.insertAdjacentElement('beforeend', img1);
+let p2 = document.createElement('p');
+p2.insertAdjacentElement('beforeend', img1);
 div.insertAdjacentElement('beforeend', p2);
 
-// 練習4-4 箇条書き削除プログラム
+let img2 = document.createElement('img');
+img2.setAttribute('src','jiro.png');
+let p3 = document.createElement('p');
+p3.insertAdjacentElement('beforeend', img2);
+div.insertAdjacentElement('beforeend', p3);
 
+let img3 = document.createElement('img');
+img3.setAttribute('src','hanako.png');
+let p4 = document.createElement('p');
+p4.insertAdjacentElement('beforeend', img3);
+div.insertAdjacentElement('beforeend', p4);
+
+// 練習4-4 箇条書き削除プログラム
+let w = document.querySelectorAll('ul#location > li');
+for(let i;i<3;i++){
+w.remove();
+}
 
 // 練習4-5 箇条書き追加プログラム
