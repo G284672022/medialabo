@@ -38,9 +38,15 @@ p4.insertAdjacentElement('beforeend', img3);
 div.insertAdjacentElement('beforeend', p4);
 
 // 練習4-4 箇条書き削除プログラム
-let w = document.querySelectorAll('ul#location > li');
-for(let i;i<3;i++){
+for(let i=0;i<3;i=i+1){
+let w = document.querySelector('ul#location > li');
 w.remove();
 }
 
 // 練習4-5 箇条書き追加プログラム
+for(let n of data) {
+	let w = document.querySelector('ul#location');
+	let l = document.createElement('li');
+	l.textContent = '';
+	w.insertAdjacentElement('beforeend', l);
+}
