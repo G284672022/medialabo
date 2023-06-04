@@ -5,6 +5,10 @@ console.log('答え（デバッグ用）: ' + kotae);
 // 入力回数（予想回数）
 let kaisu=1;
 
+let p=document.querySelector('p#number');
+let q=document.querySelector('p#result');
+p.style.fontSize=0;
+q.style.fontSize=0;
 
 // 予想を4回実行する
 // 将来以下の hantei(); の4回の呼び出しを全て削除する
@@ -20,6 +24,10 @@ function greeting() {
 // ボタンを押した後の処理をする関数 hantei() の定義
 function hantei() {
   // 将来ここでは 4 ではなくテキストボックスに指定された数値を yoso に代入する
+  let p=document.querySelector('p#number');
+  let q=document.querySelector('p#result');
+  p.style.fontSize=16.5;
+  q.style.fontSize=16.5;
 
   let i=document.querySelector('input[name="shimei"]');
   let shimei=i.value;
