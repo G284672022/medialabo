@@ -1,7 +1,24 @@
 p {
     color:navy;
+   
 }
 
+.m {
+    background-color: rgb(233, 252, 252);
+    border:5px solid rgb(237, 244, 244)
+     
+}
+.n {
+    color:black;
+}
+
+.n{
+    border:10px solid white;
+    padding: 10px;
+    margin:-10px;
+    background-color: rgb(234, 236, 243)
+    
+}
 .special {
     color:orange;
 }
@@ -10,4 +27,12 @@ h1 {
 	background :linear-gradient(0.25turn,black,silver);
 	color: white;
 
+}
+
+h2 {
+    background :linear-gradient(0.25turn,#f9ebb5 ,rgb(233, 232, 232));
+}
+
+h3 {
+    background: linear-gradient(rgb(158, 158, 236), rgb(212, 252, 252));
 }
