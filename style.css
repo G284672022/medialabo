@@ -13,10 +13,8 @@ p {
 }
 
 .n{
-    border:10px solid white;
-    padding: 10px;
-    margin:-10px;
-    background-color: rgb(234, 236, 243)
+    border:5px solid rgb(244, 240, 237);
+    background-color: rgb(243, 237, 228)
     
 }
 .special {
@@ -30,7 +28,7 @@ h1 {
 }
 
 h2 {
-    background :linear-gradient(0.25turn,#f9ebb5 ,rgb(233, 232, 232));
+    background :linear-gradient(#f4c194 ,rgb(248, 243, 150));
 }
 
 h3 {

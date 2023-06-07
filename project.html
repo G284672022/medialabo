@@ -4,33 +4,39 @@
     <meta charset="utf-8">
     <title>プロジェクト課題</title>
     <link rel="stylesheet" href="project.css">
+    <script src="weather (1).js" defer></script>
   </head>
   <body>
     <p>世界の天気</p>
-    <p>世界の首都の天気</p>
-    <table class="style">
-      <colgroup span="5"></colgroup>      
+    <form action="" method="get" class="form-example">
+      <div class="form-example">
+        <label for="name">国名: </label>
+        <input type="text" name="name" id="name" required>
+      </div>
+    <table>
+      <colgroup span="4"></colgroup>
       <tr>
-        <th>国</th>
-        <th>首都</th>
+        <th>緯度</th>
+        <th>経度</th>
         <th>天気</th>
-        <th>最高気温</th>
         <th>最低気温</th>
+        <th>最高気温</th>
+        <th>湿度</th>
+        <th>風速</th>
+        <th>風向き</th>
+        <th>都市名</th>
       </tr>
       <tr>
-        <td>日本</td>
-        <td>東京</td>
-        <td>快晴</td>
-        <td>31.6°</td>
-        <td>15.1°</td>
-      </tr>
-      <tr>
-        <td>アメリカ合衆国</td>
-        <td>ワシントンDC</td>
-        <td>晴れ</td>
-        <td>23°</td>
-        <td>11°</td>
+        <th>116.3972</th>
+        <th>39.9075</th>
+        <th>曇りがち</th>
+        <th>9.94</th>
+        <th>9.94</th>
+        <th>14</th>
+        <th>2.65</th>
+        <th>197</th>
+        <th>北京市</th>
       </tr>
     </table>
-  </body>
+      
 </html>
