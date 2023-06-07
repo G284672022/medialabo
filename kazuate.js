@@ -33,11 +33,6 @@ function hantei() {
 	n.style.fontSize="16.5px";
   m.style.fontSize="16.5px";
   
-  let p=document.querySelector('p#number');
-  let q=document.querySelector('p#result');
-  p.style.fontSize=16.5;
-  q.style.fontSize=16.5;
-
   let i=document.querySelector('input[name="shimei"]');
   let shimei=i.value;
   let yoso=Number(i.value);
