@@ -1,5 +1,5 @@
-table.style{
-    border-collapse: collapse;
+table,tr,th{
+    border:2px black solid;
 }
 
 table.style th{

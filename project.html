@@ -4,39 +4,44 @@
     <meta charset="utf-8">
     <title>プロジェクト課題</title>
     <link rel="stylesheet" href="project.css">
-    <script src="weather (1).js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
+    <script src="project.js" defer></script>
   </head>
   <body>
     <p>世界の天気</p>
-    <form action="" method="get" class="form-example">
+    <body action="" method="get" class="form-example">
       <div class="form-example">
         <label for="name">国名: </label>
         <input type="text" name="name" id="name" required>
+        <button id="print">検索</button>
       </div>
-    <table>
-      <colgroup span="4"></colgroup>
-      <tr>
-        <th>緯度</th>
-        <th>経度</th>
-        <th>天気</th>
-        <th>最低気温</th>
-        <th>最高気温</th>
-        <th>湿度</th>
-        <th>風速</th>
-        <th>風向き</th>
-        <th>都市名</th>
-      </tr>
-      <tr>
-        <th>116.3972</th>
-        <th>39.9075</th>
-        <th>曇りがち</th>
-        <th>9.94</th>
-        <th>9.94</th>
-        <th>14</th>
-        <th>2.65</th>
-        <th>197</th>
-        <th>北京市</th>
-      </tr>
+      <div id="result">
+      <table>
+        <colgroup span="4"></colgroup>
+        <tr>
+          <th>緯度</th>
+          <th>経度</th>
+          <th>天気</th>
+          <th>最低気温</th>
+          <th>最高気温</th>
+          <th>湿度</th>
+          <th>風速</th>
+          <th>風向き</th>
+          <th>都市名</th>
+        </tr>
+        <tr>
+          <th id="a">116.3972</th>
+          <th id="b">39.9075</th>
+          <th id="c">曇りがち</th>
+          <th id="d">9.94</th>
+          <th id="e">9.94</th>
+          <th id="f">14</th>
+          <th id="g">2.65</th>
+          <th id="h">197</th>
+          <th id="i">北京市</th>
+        </tr>
+      </table>
+      </div>
     </table>
-      
+  </body>   
 </html>
