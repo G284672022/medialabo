@@ -18,13 +18,6 @@ q.style.fontSize="0px";
 let b = document.querySelector('#print');
 b.addEventListener('click', hantei);
 
-function greeting() {
-  var n=document.getElementById("number");
-  var m=document.getElementById("result");
-	n.style.fontSize="16.5px";
-  m.style.fontSize="16.5px";
-}
-
 // ボタンを押した後の処理をする関数 hantei() の定義
 function hantei() {
   // 将来ここでは 4 ではなくテキストボックスに指定された数値を yoso に代入する
