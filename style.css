@@ -5,7 +5,7 @@ p {
 
 .m {
     background-color: rgb(233, 252, 252);
-    border:5px solid rgb(237, 244, 244)
+    border:5px solid rgb(237, 244, 244);
      
 }
 .n {
@@ -14,7 +14,7 @@ p {
 
 .n{
     border:5px solid rgb(244, 240, 237);
-    background-color: rgb(243, 237, 228)
+    background-color: rgb(243, 237, 228);
     
 }
 .special {
@@ -33,4 +33,13 @@ h2 {
 
 h3 {
     background: linear-gradient(rgb(158, 158, 236), rgb(212, 252, 252));
+}
+
+.muzui{
+    background: linear-gradient(rgb(42, 198, 11), rgb(220, 246, 229)) ;
+}
+
+.neko{
+    background-color: rgb(237, 249, 235);
+    border:5px solid rgb(238, 244, 237);
 }
