@@ -19,31 +19,32 @@ function sendRequest() {
 	n.style.fontSize="16.5px";
   m.style.fontSize="16.5px";
 
-  let i=document.querySelector('input[name="name"]');
-  let kunimei=i.value;
+  let s = document.querySelector('select#name');
+    let idx = s.selectedIndex;  
+    let os = s.querySelectorAll('option');
   let url;
 
-  if(kunimei==='エジプト'){
+  if(idx===1){
    url ='https://www.nishita-lab.org/web-contents/jsons/openweather/360630.json';}
-  if(kunimei==='ロシア'){
+  if(idx===2){
    url ='https://www.nishita-lab.org/web-contents/jsons/openweather/524901.json';}
-  if(kunimei==='南アフリカ'){
+  if(idx===3){
    url ='https://www.nishita-lab.org/web-contents/jsons/openweather/993800.json';}
-  if(kunimei==='中国'){
+  if(idx===4){
    url ='https://www.nishita-lab.org/web-contents/jsons/openweather/1816670.json';}
-  if(kunimei==='日本'){
+  if(idx===5){
    url ='https://www.nishita-lab.org/web-contents/jsons/openweather/1850147.json';}
-  if(kunimei==='シンガポール'){
+  if(idx===6){
    url ='https://www.nishita-lab.org/web-contents/jsons/openweather/1880252.json';}
-  if(kunimei==='オーストラリア'){
+  if(idx===7){
    url ='https://www.nishita-lab.org/web-contents/jsons/openweather/2147714.json';}
-  if(kunimei==='イギリス'){
+  if(idx===8){
    url ='https://www.nishita-lab.org/web-contents/jsons/openweather/2643743.json';}
-  if(kunimei==='フランス'){
+  if(idx===9){
    url ='https://www.nishita-lab.org/web-contents/jsons/openweather/2968815.json';}
-  if(kunimei==='ブラジル'){
+  if(idx===10){
    url ='https://www.nishita-lab.org/web-contents/jsons/openweather/3451189.json';}
-  if(kunimei==='アメリカ'){
+  if(idx===11){
    url ='https://www.nishita-lab.org/web-contents/jsons/openweather/5128581.json';}
   
   
