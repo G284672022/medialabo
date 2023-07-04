@@ -2,12 +2,16 @@ table,tr,th{
     border:2px white solid;
 }
 
-table.style th{
+.table.style th{
     border:1px solid #000066;
     background:royalblue;
 }
 
-table.style td{
+.table.style td{
     border:1px solid #000066;
     background:#ffffff;
+}
+
+h2{
+    color: rgb(140, 140, 242);
 }
